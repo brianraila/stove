@@ -1,0 +1,34 @@
+{
+	"name": "stove",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"start": "svelte-kit start",
+		"lint": "prettier --check .",
+		"format": "prettier --write .",
+		"db init":"yarn prisma init",
+		"db migrate": "yarn prisma migrate dev --preview-feature",
+    	"db studio": "yarn prisma studio"
+		
+	},
+	"devDependencies": {
+		"@prisma/cli": "^2.19.0",
+		"@sveltejs/adapter-node": "next",
+		"@sveltejs/kit": "next",
+		"prettier": "~2.2.1",
+		"prettier-plugin-svelte": "^2.2.0",
+		"svelte": "^3.29.0",
+		"svelte-preprocess": "^4.0.0",
+		"tslib": "^2.0.0",
+		"typescript": "^4.0.0",
+		"vite": "^2.1.0"
+	},
+	"type": "module",
+	"engines": {
+		"node": ">= 12.17.0"
+	},
+	"dependencies": {
+		"@prisma/client": "^2.19.0"
+	}
+}
