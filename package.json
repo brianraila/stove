@@ -7,9 +7,9 @@
 		"start": "svelte-kit start",
 		"lint": "prettier --check .",
 		"format": "prettier --write .",
-		"db init":"yarn prisma init",
-		"db migrate": "yarn prisma migrate dev --preview-feature",
-    	"db studio": "yarn prisma studio"
+		"db-init":"yarn prisma init",
+		"db-migrate": "yarn prisma migrate dev --preview-feature",
+    	"db-studio": "yarn prisma studio"
 		
 	},
 	"devDependencies": {
