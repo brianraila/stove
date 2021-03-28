@@ -1,5 +1,5 @@
 ###
-
+A fullstack web application framework built with Svelte and Prisma. 
 
 How to initialize project
 
